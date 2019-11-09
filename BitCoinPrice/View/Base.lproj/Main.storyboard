@@ -34,6 +34,10 @@
                         <color key="backgroundColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="0.66371468321917804" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="currencyPicker" destination="qdy-zh-3bz" id="m6O-bh-ePN"/>
+                        <outlet property="priceLabel" destination="GTm-BG-svB" id="wdb-r5-sz9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
